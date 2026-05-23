@@ -1,0 +1,54 @@
+
+
+/* Element selector */
+body{
+    background-color: coral;
+}
+
+hr{
+    
+    border-color:black;
+}
+/* class selector */
+.head{
+    color: darkblue;
+    font-family: cursive;
+}
+/* ID selector */
+#bglime{
+    background-color:limegreen;
+    
+}
+#text{
+    color: red;
+}
+#para{
+    color:green;
+}
+
+/* universal selector */
+*{
+   color:aliceblue;
+   font-family: cursive;
+}
+/*  Descendant Selector  */
+#l1 a{
+    background-color: beige;
+    color:crimson
+
+}
+#l2 a{
+    background-color: aqua;
+    color: black;
+}
+/* Direct child selector */
+#list_item2>li{
+
+    color:blue;
+}
+#list_item3>li{
+    color:red;
+}
+
+
+
